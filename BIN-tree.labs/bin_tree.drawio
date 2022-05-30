@@ -1,0 +1,1065 @@
+<mxfile host="65bd71144e">
+    <diagram id="dZqxs4lyRHFmFkZkz2oQ" name="Страница 1">
+        <mxGraphModel dx="6417" dy="3950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="struct  Branch" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="26" width="190" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+int data;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="+Branch* LeftBranch;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+                    <mxGeometry y="52" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="+Branch* RightBranch;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8">
+                    <mxGeometry y="78" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Add&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="10" width="370" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="870" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="375" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (!&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="140" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="260" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="380" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="755" y="490" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="610" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="880" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="870" y="800"/>
+                            <mxPoint x="690" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="585" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="155" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="230" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="880" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="585" y="600"/>
+                            <mxPoint x="370" y="600"/>
+                            <mxPoint x="370" y="800"/>
+                            <mxPoint x="690" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Add&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="320" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;" edge="1" parent="1" source="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="880" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="155" y="600"/>
+                            <mxPoint x="370" y="600"/>
+                            <mxPoint x="370" y="800"/>
+                            <mxPoint x="670" y="800"/>
+                            <mxPoint x="690" y="800"/>
+                            <mxPoint x="690" y="810"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Add&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="320" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="635" y="880" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="10" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1685" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1530" y="379.9999999999998" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1360" y="170"/>
+                            <mxPoint x="1360" y="340"/>
+                            <mxPoint x="1530" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (!&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1435" y="130" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1625" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="42" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tabs&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; += &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1415" y="500" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1330" y="640"/>
+                            <mxPoint x="1330" y="870"/>
+                            <mxPoint x="1530" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;for&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;lt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tabs&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;++)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1390" y="600" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="47" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1530" y="830"/>
+                            <mxPoint x="1710" y="830"/>
+                            <mxPoint x="1710" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1385" y="910" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="52" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1410" y="1020" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tabs&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; -= &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="1130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="56" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="1240" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="1360" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="1650" y="1310" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="61">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1530" y="1330" as="sourcePoint"/>
+                        <mxPoint x="1670" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="63" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;bypass_tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1990" y="10" width="330" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64" target="66">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2330" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;" edge="1" parent="1" source="64" target="68">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1960" y="190"/>
+                            <mxPoint x="1960" y="320"/>
+                            <mxPoint x="2165" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2040" y="150" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2270" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="68" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;bypass_tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2010" y="380" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="70" target="72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="2030" y="480" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="72" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;bypass_tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2015" y="590" width="300" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2105" y="720" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="76" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;leaf_num&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2800" y="10" width="290" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="77" target="79">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3120" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="77" target="82">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2760" y="170"/>
+                            <mxPoint x="2760" y="310"/>
+                            <mxPoint x="2945" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2830" y="130" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="3060" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82" target="84">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2600" y="395"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3320" y="395"/>
+                            <mxPoint x="3320" y="530"/>
+                            <mxPoint x="3320" y="620"/>
+                            <mxPoint x="2945" y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;amp;&amp;amp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2657.5" y="350" width="575" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="84" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2600" y="620"/>
+                            <mxPoint x="2945" y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;list&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;++;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2540" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="86" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;leaf_num&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2800" y="690" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="89" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;leaf_num&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2785" y="810" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2885" y="950" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;list&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="3055" y="880" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="93">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2940" y="930" as="sourcePoint"/>
+                        <mxPoint x="3040" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="95" target="96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;add_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="3980" width="440" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="98">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4350" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3995" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (!&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4120" y="140" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="98" target="100">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4280" y="240" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="100" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4290" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="102" target="104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4290" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="104" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4290" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4290" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="108" target="110">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4150" y="275"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="108" target="112">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3810" y="275"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;lt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="3870" y="235" width="250" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=none;html=1;" edge="1" parent="1" source="110">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="4190" y="850.1724137931035" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="4150" y="570"/>
+                            <mxPoint x="4000" y="570"/>
+                            <mxPoint x="4000" y="770"/>
+                            <mxPoint x="4190" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;add_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4060" y="330" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="112" target="114">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3970" y="355"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=none;html=1;" edge="1" parent="1" source="112">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="4190" y="850" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="3640" y="355"/>
+                            <mxPoint x="3640" y="520"/>
+                            <mxPoint x="3800" y="520"/>
+                            <mxPoint x="3800" y="570"/>
+                            <mxPoint x="4000" y="570"/>
+                            <mxPoint x="4000" y="770"/>
+                            <mxPoint x="4190" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="3700" y="315" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;html=1;" edge="1" parent="1" source="114">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="4190" y="850" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="3970" y="520"/>
+                            <mxPoint x="3800" y="520"/>
+                            <mxPoint x="3800" y="560"/>
+                            <mxPoint x="3800" y="570"/>
+                            <mxPoint x="4000" y="570"/>
+                            <mxPoint x="4000" y="770"/>
+                            <mxPoint x="4190" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;add_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;adata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="3910" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4130" y="850" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="120" target="121">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;is_Empty&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4880" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="121" target="123">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Checking the tree.....&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="4840" y="165" width="380" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="123" target="126">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5185" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="123" target="128">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4850" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (!&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4955" y="270" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="126" target="130">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5185" y="480"/>
+                            <mxPoint x="5030" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;BIN-tree empty...&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="5060" y="370" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=none;html=1;" edge="1" parent="1" source="128">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="5030" y="530" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="4850" y="480"/>
+                            <mxPoint x="5030" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;BIN-tree NO empty...&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="4700" y="360" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="130" target="133">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="4970" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="4970" y="630" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="135" target="136">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;DeleteTree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5610" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="136" target="138">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5900" y="175"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="136" target="140">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5610" y="175"/>
+                            <mxPoint x="5610" y="340"/>
+                            <mxPoint x="5760" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="136" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (!&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5680" y="135" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5840" y="235" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="140" target="143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;DeleteTree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5655" y="395" width="210" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="143" target="145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;DeleteTree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5635" y="490" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="145" target="147">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;delete&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5700" y="595" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5700" y="710" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="149" target="150">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;del_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;*&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aData&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7140" width="410" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="150" target="152">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7510" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="150" target="154">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7085" y="180"/>
+                            <mxPoint x="7085" y="340"/>
+                            <mxPoint x="7345" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7240" y="140" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7450" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="154" target="156">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7560" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="194" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="154" target="193">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6580" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="154" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aData&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7190" y="400" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="156" target="157">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tmp&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7500" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="157" target="160">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7840" y="690"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="163" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="157" target="162">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7311" y="690"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7395" y="650" width="330" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" style="edgeStyle=none;html=1;" edge="1" parent="1" source="160">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="7560" y="2319.090909090909" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="7840" y="2180"/>
+                            <mxPoint x="7560" y="2180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="160" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tmp&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7725" y="750" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="162" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7206" y="750" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="164" target="166">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7550" y="910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="164" target="170">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7076" y="910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="164" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; == &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7171" y="870" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="166" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7450" y="990" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" style="edgeStyle=none;html=1;" edge="1" parent="1" source="168">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="7310" y="2140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="7550" y="2070"/>
+                            <mxPoint x="7310" y="2070"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="168" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tmp&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7490" y="1100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="170" target="172">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6981" y="990" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="172" target="174">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="172" target="179">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6840" y="1170"/>
+                            <mxPoint x="6840" y="1550"/>
+                            <mxPoint x="7076" y="1550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="172" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;while&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; != &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;NULL&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6916" y="1130" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="174" target="176">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7016" y="1270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="176" target="172">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7076" y="1500"/>
+                            <mxPoint x="7290" y="1500"/>
+                            <mxPoint x="7290" y="1170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7016" y="1380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="179" target="181">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;ptr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6971" y="1600" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="181" target="183">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6966" y="1704" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="183" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6916" y="1810" width="320" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" style="edgeStyle=none;html=1;" edge="1" parent="1" source="185">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="7560" y="2320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="7076" y="2070"/>
+                            <mxPoint x="7310" y="2070"/>
+                            <mxPoint x="7310" y="2180"/>
+                            <mxPoint x="7560" y="2180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="185" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tmp&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;pmin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7016" y="1920" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="190" target="191">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;delete&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7500" y="2320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="191" target="199">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7560" y="2640"/>
+                            <mxPoint x="7345" y="2640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="191" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tmp&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7500" y="2440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="193" target="195">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6990" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="193" target="197">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6260" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="193" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aData&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;lt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;data&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6440" y="530" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" style="edgeStyle=none;html=1;" edge="1" parent="1" source="195">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="6590" y="960" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="6990" y="840"/>
+                            <mxPoint x="6590" y="840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="195" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;del_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;LeftBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aData&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6780" y="610" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="197" target="199">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="6590" y="950" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="6260" y="840"/>
+                            <mxPoint x="6590" y="840"/>
+                            <mxPoint x="6590" y="2110"/>
+                            <mxPoint x="6590" y="2630"/>
+                            <mxPoint x="7345" y="2640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="197" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;del_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;RightBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aData&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="6100" y="605" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="7285" y="2780" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;aBranch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="7440" y="2680" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="203">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="7350" y="2730" as="sourcePoint"/>
+                        <mxPoint x="7480" y="2730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="207" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="205" target="206">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="206" target="208">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-450" y="120" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="208" target="210">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;col_branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="210" target="212">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="325" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="212" target="214">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Enter the number of branch elements: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-525" y="440" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="214" target="216">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;col_branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-465" y="545" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="216" target="218">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="645" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="218" target="221">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;is_Empty&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="221" target="223">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" style="edgeStyle=none;html=1;" edge="1" parent="1" source="221" target="226">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-495" y="920"/>
+                            <mxPoint x="-495" y="1180"/>
+                            <mxPoint x="-375" y="1180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="221" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;for&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;lt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;col_branch&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;++)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="880" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="223" target="221">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-375" y="1140"/>
+                            <mxPoint x="-255" y="1140"/>
+                            <mxPoint x="-255" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="223" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Add&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;rand&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;() % &lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;96&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="226" target="228">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;is_Empty&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="1230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="228" target="230">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Print BIN-tree: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="1350" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="230" target="232">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="1470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="232" target="234">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Direct bypass BIN-tree:&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-555" y="1600" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="234" target="236">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;bypass_tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-455" y="1694" width="160" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="236" target="238">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-445" y="1800" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="238" target="240">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Entering a new element into the BIN-tree: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-530" y="1900" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="240" target="242">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Add new element to the BIN-tree: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-550" y="2010" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="242" target="244">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="2110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="244" target="246">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;add_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="2230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="246" target="248">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Print BIN-tree: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="2350" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="248" target="250">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="2460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="250" target="252">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Enter the delete-element: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-475" y="2570" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="252" target="254">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cin&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="2690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="254" target="256">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;del_elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;elem&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="2800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="256" target="258">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Print BIN-tree: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-530" y="2910" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="258" target="260">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="3020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="260" target="262">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Leaf Calculator -&amp;gt; Number of leaves: &quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;leaf_num&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-690" y="3130" width="630" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="262" target="264">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;DeleteTree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;tree&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="3270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="264" target="266">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;cout&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Delete tree.....&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;endl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="3390" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-435" y="3530" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
