@@ -68,7 +68,7 @@ int main()
     {
         cout << " Получили индекс искомой буквы " << endl << endl;
         cout << "  => " << index << " <=  ";
-      
+
         for (int i = 0; i < n; i++)
         {
             if (arr[i] != 'u')
@@ -78,7 +78,7 @@ int main()
             }
         }
     }
-    
+    delete[] arr;
     cout << "Изменённое множество: ";
     outprint(arr_tmp, k);
 }
