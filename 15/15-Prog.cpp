@@ -3,15 +3,15 @@ using namespace std;
 
 bool Destroy(int* arr, int size, int indexN)
 {
-		if (indexN < 0 || indexN > size)
-			return false;
+	if (indexN < 0 || indexN > size)
+		return false;
 
-		for (int i = indexN; i < size; i++)
-		{
-			arr[i] = arr[i + 1];
-		}
-		size--;
-		return true;
+	for (int i = indexN; i < size; i++)
+	{
+		arr[i] = arr[i + 1];
+	}
+	size--;
+	return true;
 }
 
 void inprint(int* arr, int n)
@@ -33,24 +33,24 @@ void outprint(int* arr, int n)
 
 void sort(int* arr, int n)
 {
-int flag;
-int i;
-int tmp;
-do
-{
-	flag = 0;
-	for (i = 0; i < n - 1; i++)
+	int flag;
+	int i;
+	int tmp;
+	do
 	{
-		if (arr[i] > arr[i + 1])
+		flag = 0;
+		for (i = 0; i < n - 1; i++)
 		{
-			flag = 1;
-			tmp = arr[i];
-			arr[i] = arr[i + 1];
-			arr[i + 1] = tmp;
+			if (arr[i] > arr[i + 1])
+			{
+				flag = 1;
+				tmp = arr[i];
+				arr[i] = arr[i + 1];
+				arr[i + 1] = tmp;
+			}
 		}
-	}
-} while (flag);
-return;
+	} while (flag);
+	return;
 }
 
 int inter_search(int* arr, int size, int key)
@@ -78,10 +78,10 @@ int inter_search(int* arr, int size, int key)
 		return left; //Вывод "левую границу"
 	}
 	else if (arr[right] == key)
-			{
-				return right; //Вывод "правую границу"
-			}
-	else 
+	{
+		return right; //Вывод "правую границу"
+	}
+	else
 	{
 		return -1;//Если не нашёл
 	}
@@ -95,7 +95,7 @@ int main()
 	const int k = 5;
 	int* arr = new int[n];
 	inprint(arr, n);
-	sort(arr,n);
+	sort(arr, n);
 	cout << "Отсортированное множество: ";
 	outprint(arr, n);
 	int nechet[k] = { 1,3,5,7,9 };
@@ -108,19 +108,19 @@ int main()
 			{
 				int key = arr[i];
 				indexN = inter_search(arr, n, key);
-				Destroy(arr, n-5, indexN);
+				Destroy(arr, n, indexN);
 			}
 		}
 	}
 	cout << endl;
 	cout << "Изменённое множество: ";
-	outprint(arr, n);
-  /*for (int i = 0; i < n; i++)
-	{
-		if (arr[i] < 0)
-		{
-			delete* arr[i];
-		}
-	}*/
+	outprint(arr, n);//Вывод с удалённым мусором
+	/*for (int i = 0; i < n; i++)
+	  {
+		  if (arr[i] < 0)
+		  {
+			  delete* arr[i];
+		  }
+	  }*/
 	delete[] arr;
 }
